@@ -52,9 +52,9 @@ def button_equal():
         e.insert(0,f_num+int(second_number))
     elif(math=="subtraction"):
         e.insert(0,f_num-int(second_number))
-    if(math=="multiplication"):
+    elif(math=="multiplication"):
         e.insert(0,f_num*int(second_number))
-    if(math=="division"):
+    elif(math=="division"):
         e.insert(0,f_num/int(second_number))
 
 
